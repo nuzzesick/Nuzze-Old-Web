@@ -147,6 +147,15 @@
 <script>
 export default {
   name: "home",
+  metaInfo: {
+    title: 'Projects',
+    titleTemplate: '%s | Nuzze',
+    meta: [
+      { name: 'description', content: `Hi! I'm Nuzze, a front-end developer based in BA` },
+      { name: 'keywords', content: `frontend,development,developer,programming,javascript` },
+      { name: 'author', content: `Nuzze` },
+    ]
+  },
   mounted() {
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
