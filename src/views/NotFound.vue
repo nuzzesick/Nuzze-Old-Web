@@ -1,11 +1,10 @@
 <template>
-  <div>
-  </div>
+  <div></div>
 </template>
 <script>
 export default {
   mounted() {
-    window.location.replace('/')
+    window.location.replace("/");
   }
-}
+};
 </script>
